@@ -1,0 +1,82 @@
+
+.container {
+    display: flex;
+}
+
+.image-section {
+    width: 798px;
+    margin: 0 74px 0 0;
+    border-radius: 15px;
+    background-color: #eddfdf;
+}
+
+.image-section img {
+    width: 80%;
+}
+
+.form-section {
+  width: 1000px;
+  padding: 40px;
+}
+
+.form-section h2 {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.form-section .subtext {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.form-section label {
+  display: block;
+  text-align: start;
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.form-section input {
+    width: 70%;
+  display: block;
+  text-align: start;
+  padding: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.form-section .login-text {
+    /* text-align: center; */
+    margin-left: 150px;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.form-section .login-text a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.form-section .signup-btn {
+    width: 20%;
+  background-color: #a33b29;
+  color: white;
+  padding: 7px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 200px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-section .signup-btn:hover {
+    background-color: #9b2515;
+}
